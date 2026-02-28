@@ -1,0 +1,29 @@
+*
+{
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(9, 24, 24);
+ align-items: center;
+ background-color: rgb(37, 170, 79);
+ 
+}
+#exp,#am
+{
+ background-color:rgb(106, 78, 106);
+ color: rgb(255, 255, 255);
+ font-family: 'Times New Roman', Times, serif;
+ font-size: medium;
+}
+#hk
+{
+ margin-left: 10;
+}
+.input
+{
+    margin-left: 25;
+    margin-top: 10;
+    padding: 10
+}
+#image
+{
+    margin-left: 20%;
+}

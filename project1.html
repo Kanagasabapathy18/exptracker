@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> Expense Tracker</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body >
+        <br>
+        <h2 id="hl"> EXPENSES TRACKER</h2>
+        <h4 id="hk"> An expense tracker empowers you to take control of your finances and turn mindful spending into future savings</h4>   
+        <img src="thumb1.jpg" id="image"height="400" alt="image">
+        
+        <div class="input">
+        <label for="exp">Expenses:</label><br>
+        <input type="text" id="exp" placeholder="Expense name:" required><br>
+
+        <label for="am">Amount:</label><br>
+        <input type="number" id="am" placeholder="Amount" required><br><br>
+
+        <button id="btn" onclick="func()">ADD</button>
+
+        <h4>Your Expenses:</h4>
+        <ul id ="ls"> </ul>
+
+        <h4 style="margin-left: 10;"><b> Total:₹ </b><span id="tot">0</span> </h4>
+        </div>
+        <img src="thumb2.jpg" height="400" id="image" alt="image">
+
+        <script src="index1.js"></script>
+
+    </body>
+</html>
